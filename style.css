@@ -1,0 +1,33 @@
+html, body{height: 100%;
+width: 100%; margin: 0; text-align: center}
+
+
+.One{
+background-color: aqua;
+}
+
+.Two{
+    background-color: blueviolet;
+}
+.Three{background-color: greenyellow;
+}
+
+.Four{
+    background-color: crimson;
+}
+
+.border{
+    border: 5px solid palevioletred;
+    width: 360px;
+    height:180px;
+    display: inline-block;
+    background-color: pink;
+    margin-top: 50px;
+    
+
+}
+
+#QUARTER{
+    height: 25%;
+}
+
