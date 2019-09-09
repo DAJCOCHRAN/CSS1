@@ -1,33 +1,63 @@
 html, body{height: 100%;
-width: 100%; margin: 0; text-align: center}
+width: 100%; margin: 0;}
 
-
-.One{
-background-color: aqua;
+img{
+    height:30%;
+    width: 40%;
 }
 
-.Two{
+
+.Top{
+    height: 50%;
+}
+.Top_Left{
+background-color: aquamarine;
+height:100%;
+width: 50%;
+text-align: center;
+
+}
+
+.Top_Right{
+    background-color: red;
+    width: 50%;
+    height: 100%;
+    right: -50%;
+    top: -100%;
+    position: relative;
+    text-align: center;
+    }
+
+.Bottom{
+    height:50%
+}
+
+.Bottom_Left{
     background-color: blueviolet;
-}
-.Three{background-color: greenyellow;
+    height: 100%;
+    width: 50%;
+    text-align: center;
 }
 
-.Four{
-    background-color: crimson;
+.Bottom_Right{
+    background-color: greenyellow;
+    height: 100%;
+    width: 50%;
+    right: -50%;
+    top: -100%;
+    position: relative;
+    text-align: center;
+
 }
 
 .border{
     border: 5px solid palevioletred;
-    width: 360px;
-    height:180px;
+    width: 50%;
+    height:70%;
     display: inline-block;
     background-color: pink;
-    margin-top: 50px;
-    
-
+    margin-top: 6%
 }
 
-#QUARTER{
-    height: 25%;
-}
+
 
